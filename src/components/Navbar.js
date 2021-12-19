@@ -1,7 +1,7 @@
 import React from "react";
 export default function Navbar() {
   return (
-    <div style={{ border: "30px solid white" }}>
+    <div className="mt-1" style={{ border: "30px solid white" }}>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
