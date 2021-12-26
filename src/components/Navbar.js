@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
          <Link className="navbar-brand" to="#">
-            Navbar
+            WriteGrapes
           </Link>
           <button
             className="navbar-toggler"
