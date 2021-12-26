@@ -1,6 +1,7 @@
 import React from 'react'
 import Subscribe from "./Subscribe.js";
 import Home1 from "./Home1.jpg";
+import {Link} from "react-router-dom";
 export default function Home() {
     return (<>     <div  className="mt-1" style={{border:"40px solid #D8A7B1"}}>
         <div className="container-md" style={{backgroundColor:"#D8A7B1"}}>
