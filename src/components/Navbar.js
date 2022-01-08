@@ -3,35 +3,20 @@ import {Link} from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="mt-1" style={{ border: "30px solid white" }}>
-      <nav className="navbar navbar-expand-lg ">
-        <div className="container-fluid">
-         <Link className="navbar-brand" to="#">
-            WriteGrapes
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-             <Link className="nav-link active" aria-current="page" to="#">
-                Home
-              </Link>
-             <Link className="nav-link active " to="#">
-                Contact
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <div  className="m-5" style={{borderBottom:"2px solid #679966"}}>
+      <div className="container-md" >
+      <div className="container px-4">
+      <div className="row gx-5">
+       <div className="col">
+      <h4  style={{color:"#B24DAB",fontFamily: "'Pacifico', cursive"}}>WriteGrapes</h4>
+      </div>
+    <div className="col" style={{textAlign:"end"}}>
+      <h6 ><Link to="/home" style={{color:"#679966"}}>Home</Link></h6>
+      <h6><Link to="/contact" style={{color:"#679966"}}>Contact Us</Link></h6>
     </div>
+  </div>
+</div>
+       </div>
+      </div>
   );
 }
