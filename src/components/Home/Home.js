@@ -5,7 +5,7 @@ import Title from "./Title.js";
 import {Link} from "react-router-dom";
 export default function Home() {
     return (<>     <div  className="" style={{border:"40px solid #D8A7B1"}}>
-        <div className="container-md" style={{backgroundColor:"#D8A7B1",color:"#494747"}}>
+        <div className="container-md" style={{backgroundColor:"#D8A7B1",color:"white"}}>
             <div className="container px-4">
   <div className="row gx-5">
     <div className="col">
